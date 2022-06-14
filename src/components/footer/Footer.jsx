@@ -19,16 +19,8 @@ const links = [
     children: "Experience",
   },
   {
-    url: "#services",
-    children: "Services",
-  },
-  {
     url: "#portfolio",
     children: "Portfolio",
-  },
-  {
-    url: "#testimonials",
-    children: "Testimonials",
   },
   {
     url: "#contact",

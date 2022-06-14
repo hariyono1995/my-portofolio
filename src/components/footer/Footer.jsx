@@ -43,17 +43,17 @@ export default function Footer() {
         ))}
       </ul>
 
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a target="_blank" href="https://www.facebook.com/rio.edger/">
           <FaFacebookF className="footer__social-icon" />
         </a>
         <a target="_blank" href="https://www.instagram.com/hariyono4441/">
           <FiInstagram className="footer__social-icon" />
         </a>
-        {/* <a href="https://twitter.com">
+        <a href="https://twitter.com">
           <IoLogoTwitter />
-        </a> */}
-      </div>
+        </a>
+      </div> */}
       <div className="footer__copyright">
         <small>&copy; Hariyono, all rights reserved.</small>
       </div>

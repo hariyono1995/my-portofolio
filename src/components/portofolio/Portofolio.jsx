@@ -3,9 +3,9 @@ import "./portofolio.css";
 import IMG1 from "assets/movie-app.png";
 import IMG2 from "assets/amazon-clone.png";
 import IMG3 from "assets/tesla-clone.png";
-import IMG4 from "assets/portfolio4.jpg";
-import IMG5 from "assets/portfolio5.png";
-import IMG6 from "assets/portfolio6.jpg";
+import IMG4 from "assets/gpt3.png";
+import IMG5 from "assets/fitnes-app.png";
+import IMG6 from "assets/search-movie.png";
 
 const data = [
   {
@@ -30,27 +30,27 @@ const data = [
       "https://github.com/hariyono1995/course-clever-programmer-tesla-clone",
     demo: "https://reliable-kringle-e4fd55.netlify.app/",
   },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: "portfolio title",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
-  // {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: "portfolio title",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
-  // {
-  //   id: 6,
-  //   image: IMG6,
-  //   title: "portfolio title",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
+  {
+    id: 4,
+    image: IMG4,
+    title: "GPT 3 React Js",
+    github: "https://github.com/hariyono1995/gpt-3",
+    demo: "https://melodious-clafoutis-9e56fa.netlify.app/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "portfolio title",
+    github: "https://github.com/hariyono1995/project_fitness_app",
+    demo: "https://poetic-praline-51a7de.netlify.app/",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "portfolio title",
+    github: "https://github.com/hariyono1995/search-movie",
+    demo: "https://dancing-malasada-59b848.netlify.app/",
+  },
 ];
 
 export default function Portofolio() {
